@@ -73,9 +73,7 @@ public class ServicioCalculadora implements IServicioCalculadora {
         //--------------------OPERACIONES TRIGONOMETRICAS--------------------
 
     @Override
-    public double sen0(Trigonometricas valor) {
-        return Math.sin(valor.Radianes());
-    }
+    public double sen0(Trigonometricas valor) {return Math.sin(valor.Radianes());}
 
     @Override
     public double cos0(Trigonometricas valor) {

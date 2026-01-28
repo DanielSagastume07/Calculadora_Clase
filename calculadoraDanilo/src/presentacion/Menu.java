@@ -33,7 +33,7 @@ public class Menu {
                 1. Operaciones Aritmeticas
                 2. Logaritmicas
                 3. Trigonometricas
-                4. Salir
+                0. Salir
                 """);
         System.out.println("Ingrese una opcion: ");
     }
@@ -52,6 +52,8 @@ public class Menu {
             case 3 ->{
                 menuTrigonometricas();
             }
+            case 0 -> salir = true;
+
             default -> {
                 System.out.println("Error......");
             }
