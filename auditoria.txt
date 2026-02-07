@@ -1,0 +1,1 @@
+[07/02/2026 10:18:46] ACCIÓN: Inicio          | DETALLE: El usuario inicio el programa
